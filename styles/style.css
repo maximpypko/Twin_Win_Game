@@ -1,0 +1,39 @@
+html{
+  height: 100vh;
+  font-size: 10px;
+}
+
+body{
+  height: 100%;
+  margin: 0;
+  position: relative;
+  background-color: #5F8CC7;
+}
+
+canvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(#3298BE, #051932);
+  box-shadow: 0px 0px 10px 2px rgba(197, 225, 246, 0.9);
+}
+
+button{
+  padding: 1rem 2rem;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 1.6rem;
+  color: white;
+  border: none;
+  border-radius: .5rem;
+  background: linear-gradient(#B2C7E6, #023F76);
+  box-shadow: 0px 0px 10px 2px rgba(197, 225, 246, 0.5);
+  transition: .2s ease-in-out;
+}
+
+button:hover{
+  box-shadow: 0px 0px 10px 2px rgba(197, 225, 246, 1);
+}
